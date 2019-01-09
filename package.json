@@ -4,7 +4,7 @@
   "description": "The backend for the SecretSanta Project which does the basic CRUD operations to the database",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register */**/*.spec.ts",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "start": "rm -rf lib/ && tsc && node --harmony lib/index.js"
   },
   "repository": {
