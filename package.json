@@ -1,0 +1,29 @@
+{
+  "name": "secretsanta_backend",
+  "version": "1.0.0",
+  "description": "The backend for the SecretSanta Project which does the basic CRUD operations to the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register */**/*.spec.ts",
+    "start": "rm -rf lib/ && tsc && node --harmony lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwoelfer-tgm/secretsanta_backend.git"
+  },
+  "author": "Martin Woelfer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwoelfer-tgm/secretsanta_backend/issues"
+  },
+  "homepage": "https://github.com/mwoelfer-tgm/secretsanta_backend#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
